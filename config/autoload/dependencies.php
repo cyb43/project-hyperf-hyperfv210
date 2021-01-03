@@ -2,7 +2,8 @@
 
 declare(strict_types=1);
 /**
- * This file is part of Hyperf.
+ * ^2_3^ This file is part of Hyperf.
+ * 类依赖关系
  *
  * @link     https://www.hyperf.io
  * @document https://hyperf.wiki

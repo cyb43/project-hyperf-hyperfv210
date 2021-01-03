@@ -28,5 +28,11 @@ cp php.ini php.ini.bk20201230
 vim php.ini
 swoole.use_shortname = "Off" //如果没有，则加上配置
 --
+2、"php bin/hyperf.php start"启动报错
+命令：php bin/hyperf.php start
+报错：failed to listen server port[0.0.0.0:9501], Error: Address already in use[48]
+端口查看：lsof -i:9501
+杀掉进程：kill -9 'PID'
+--
 --
 --

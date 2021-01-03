@@ -2,7 +2,8 @@
 
 declare(strict_types=1);
 /**
- * This file is part of Hyperf.
+ * ^2_3^ This file is part of Hyperf.
+ * 服务配置
  *
  * @link     https://www.hyperf.io
  * @document https://hyperf.wiki
@@ -15,6 +16,7 @@ use Hyperf\Server\Event;
 return [
     'mode' => SWOOLE_PROCESS,
     'servers' => [
+        //// web服务 (监听更多端口 https://hyperf.wiki/2.0/#/zh-cn/quick-start/overview?id=%e5%a4%9a%e7%ab%af%e5%8f%a3%e7%9b%91%e5%90%ac)
         [
             'name' => 'http',
             'type' => Server::SERVER_HTTP,
